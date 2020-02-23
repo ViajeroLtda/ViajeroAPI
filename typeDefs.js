@@ -10,7 +10,7 @@ module.exports = gql`
 
   type Post {
     _id: ID
-    links: Number
+    links: Int
     likers: [Likers]
     comments: [Comment]
   }
