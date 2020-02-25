@@ -2,9 +2,9 @@
   "name": "viajeroapi",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "cross-env NODE_ENV=dev nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -17,11 +17,12 @@
   },
   "homepage": "https://github.com/ViajeroLtda/ViajeroAPI#readme",
   "dependencies": {
-    "apollo-server": "^2.3.1",
-    "dotenv": "^6.2.0",
-    "google-auth-library": "^3.0.1",
-    "graphql": "^14.1.1",
-    "mongoose": "^5.4.6"
+    "config": "^3.2.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.2"
   },
   "devDependencies": {
     "nodemon": "^1.18.10"
