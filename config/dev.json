@@ -1,5 +1,5 @@
 {
     "DB": {
-        "HOST": "mongodb://127.0.0.1/viajero"
+        "HOST": "mongodb+srv://viajero:Vi4J3r0oOd._.b@cluster0-b6tyi.mongodb.net/test?retryWrites=true&w=majority"
     }
 }
