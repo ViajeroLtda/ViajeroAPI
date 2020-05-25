@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/ViajeroLtda/ViajeroAPI/issues"
   },
-  "homepage": "https://github.com/ViajeroLtda/ViajeroAPI#readme"
+  "homepage": "https://github.com/ViajeroLtda/ViajeroAPI#readme",
+  "dependencies": {
+    "apollo-server": "^2.13.1",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.15"
+  }
 }
