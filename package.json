@@ -2,9 +2,9 @@
   "name": "viajeroapi",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=dev nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -15,17 +15,5 @@
   "bugs": {
     "url": "https://github.com/ViajeroLtda/ViajeroAPI/issues"
   },
-  "homepage": "https://github.com/ViajeroLtda/ViajeroAPI#readme",
-  "dependencies": {
-    "config": "^3.2.6",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "express-validator": "^6.4.0",
-    "moment": "^2.24.0",
-    "mongoose": "^5.9.2"
-  },
-  "devDependencies": {
-    "cross-env": "^7.0.0",
-    "nodemon": "^1.18.10"
-  }
+  "homepage": "https://github.com/ViajeroLtda/ViajeroAPI#readme"
 }
