@@ -19,6 +19,7 @@
   "dependencies": {
     "apollo-server": "^2.13.1",
     "dotenv": "^8.2.0",
+    "google-auth-library": "^6.0.0",
     "mongoose": "^5.9.15"
   }
 }
